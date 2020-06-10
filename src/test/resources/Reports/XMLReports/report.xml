@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="62.557954">
+<testcase classname="Verify Adactin Login Page" name="To verify user able to login in Adactin website" time="50.256191">
+<system-out><![CDATA[Given User is on the Adactin Login Page.....................................passed
+When User enters "Testaarthiramky5555" and "test@1234"Standard..............passed
+And User clicks on Login button.............................................passed
+Then User logged in and verify welcome message..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify Adactin Login Page" name="Verify user selects the details and navigates to Search result page" time="3.941223">
+<system-out><![CDATA[Given User is on the Search Hotel Page......................................passed
+When User selects "Sydney", "Hotel Sunshine", "Standard", "1", "2" and "1"..passed
+And User clicks on Search Page..............................................passed
+Then User navigates to Select User Page.....................................passed
+When User selects from the search result....................................passed
+And User clicks on Continue button..........................................passed
+Then User navigates to Book a Hotel Page....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify Adactin Login Page" name="" time="8.36054">
+<system-out><![CDATA[Given User is on the Book Hotel Page........................................passed
+When User enters or selects "Aarthi", "Vinod", "C33 TVH Rozalia", "2345678909875432","VISA","March", "2022" and "6754".passed
+And User clicks on Book Now button..........................................passed
+Then User navigates to Booking Confirmation Page and OrderID is generated...passed
+]]></system-out>
+</testcase>
+</testsuite>
